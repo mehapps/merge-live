@@ -1,6 +1,6 @@
 from os import listdir, path, makedirs, rmdir, remove
 from collections import defaultdict
-from subprocess import run, DEVNULL, PIPE, STDOUT, CalledProcessError
+from subprocess import run, CalledProcessError
 from send2trash import send2trash
 from shutil import move
 from random import choice
